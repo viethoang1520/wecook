@@ -1,0 +1,12 @@
+django>=5.1.4
+python-dotenv
+openai
+moviepy
+ffmpeg-python
+transformers
+torch
+numpy
+whisper
+Pillow
+
+

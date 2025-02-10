@@ -1,0 +1,84 @@
+// // LIGHT COLOR:
+// $mint-of-spring: #b3eda9;
+// $scandinavian-clovers: #ebfadb;
+// $green-light: #80ed99;
+
+// $primary-color-light: #80ed99;
+
+
+// $text-color-primary: #333333; 
+
+// $text-dark-grey: #333333e8;
+$red: #e74c3c;
+
+// // DARK COLOR:
+// // $aquamarine: #105d5e;
+// $pine-shade: #293e33;
+$dark-grey: #767f7d;
+$light-grey: #c2cbc9;
+
+// // OTHER:
+// $neo-solar: #e8e300;
+
+.App {
+     &.light-theme {
+          //text:
+          --text-primary: #333333;
+          --text-primary-contrast: #fff;
+
+          //theme:
+          --theme-color-primary: #85dd74;
+
+          //background:
+          --bg-primary: #fff;
+          --bg-secondary: #EEEEEE;
+          --bg-primary-contrast: #242526;
+
+          //accent:
+          --accent-primary: #ffe38d;
+          --accent-primary-light: #ffe38d;
+          --accent-secondary: #6148aa;
+          
+          //hover:
+
+          //status:
+     }
+
+     &.dark-theme {
+          --text-primary: #F2F2F2;
+          --theme-color-primary: #171616;
+          --bg-primary: #242526;
+          --bg-secondary: #343536;
+          --accent-primary: #ffe38d;
+     }
+}
+
+$bg-primary: var(--bg-primary);
+$bg-secondary: var(--bg-secondary);
+$text-primary: var(--text-primary);
+//$text-secondary:
+//$text-muted:
+//$text-light:
+//$text-dark
+//$text-error
+
+//$border-primary
+//$border-decondary
+//$border-light
+//$border-dark
+//$border-muted
+
+$accent-primary: var(--accent-primary);
+//$accent-secondary
+//$accent-hover
+//$accent-active
+//$highlight
+
+// $text-color: var(--text-color);
+$text-muted-color: grey;
+$theme-color-primary: var(--theme-color-primary);
+$error-color: red;
+$success-color: green;
+$warning-color: yellow;
+$active-color: grey;
+$hover-color: grey;
