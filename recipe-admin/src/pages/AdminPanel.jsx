@@ -20,14 +20,13 @@ export default function AdminPanel() {
     { value: 'Đồ uống', label: 'Đồ uống' },
   ];
 
-  // Xử lý khi file được chọn
   const handleBeforeUpload = (file) => {
     console.log(file)
     setFile(file);
-    return false; // Ngăn không cho upload tự động
+    return false; // Prevent from automated upload
   };
 
-  // Gọi API xử lý video
+  // Call API handle uploading video
   const handleUpload = async () => {
     if (!file) {
       message.error("Vui lòng chọn video trước khi upload!");
@@ -218,7 +217,7 @@ export default function AdminPanel() {
 
           <Form.Item>
             <Button type="primary" htmlType="submit">
-              Lưu công thức
+              Save recipe
             </Button>
           </Form.Item>
         </Form>
